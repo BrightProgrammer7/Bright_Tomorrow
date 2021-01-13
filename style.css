@@ -1,0 +1,171 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+body {
+    color: #555;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#header {
+    background-color: #1abc9c;
+    height: 150px;
+    line-height: 150px;
+}
+
+#header-title {
+    display: block;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#header-nav {
+    display: block;
+    float: right;
+    margin-top: 0;
+}
+
+#header-nav li {
+    display: inline;
+    padding-left: 20px;
+}
+
+#header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+#header a:hover {
+    color: #222;
+}
+
+#content {
+    clear: left;
+}
+
+.post {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.post-author {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+.post-author span {
+    text-align: center;
+    font-size: 30px;
+}
+
+.post-date {
+    color: #D2D2D2;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.post-title {
+    text-align: center;
+}
+
+h4 {
+    color: skyblue;
+    font-size: 20px;
+}
+
+.post,
+.about {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+.about-title,
+.post-title {
+    text-align: center;
+}
+
+.about-content,
+.post-content {
+    text-align: center;
+}
+
+.post-author img,
+.about-author img {
+    border-radius: 50%;
+    margin-bottom: 15px;
+    margin-left: 270px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+#website-logo h4 {
+    color: gold;
+    background-color: cornflowerblue;
+    font-variant: small-caps;
+    border: solid 2px gold;
+    border-radius: 5%;
+    transform: rotate(90deg);
+    float: left;
+    left: 980px;
+    top: 278px;
+    margin: 0;
+    position: relative;
+    padding: 25px 188px 25px 191px;
+}
+
+.website-symbol img {
+    width: 5%;
+    float: left;
+}
+
+.website-symbol span {
+    color: rgb(129, 115, 115);
+    background-color: aliceblue;
+    padding: 10px;
+    font-size: 30px;
+    margin-right: 100px;
+}
+
+#footer {
+    background-color: #2f2f2f;
+    padding: 50px 0;
+    clear: both;
+}
+
+.column {
+    min-width: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#footer h4 {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+#footer p {
+    color: white;
+}
+
+a {
+    color: #1abc9c;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f6a623;
+}
